@@ -1,0 +1,316 @@
+body {
+    background: rgb(37, 19, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER - MENU BACKGROUND IMAGE */
+
+header {
+    background: black;
+    background-image: url("../image/Raspberry Brownies Gourmet Menu.png");
+    background-position: center;
+    padding: 20px 20px 1009px 20px;
+}
+
+/* SECTION - NAVIGATION BUTTONS AND LOGO */
+
+section {
+    background: rgb(37, 19, 0);
+    color: gray;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAVIGATION LAYOUT */
+
+section nav {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+section nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+section nav li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+footer {
+    background: rgb(37, 19, 0);
+    text-align: center;
+    padding: 15px 0; /* Shrinks the top and bottom space */
+}
+
+.BuyButton {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(0, 143, 55);
+    border: 3px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.25s;
+}
+
+.BuyButton:hover { 
+        background-color: rgba(77, 255, 0, 0.645); 
+        color: white; 
+    } 
+
+.nav-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(37, 19, 0);
+    border: 3px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.25s;
+}
+
+.nav-button:hover {
+    background-color: black;
+    color: white;
+}
+
+section .logo a {
+    background-image: url("../image/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 85px;
+    height: 85px;
+    text-indent: -9999px;
+}
+
+a,
+a:visited {
+    color: white;
+}
+
+@media screen and (max-width: 1380px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/Raspberry Brownies Gourmet Menu (1).png");
+        padding: 20px 20px 899px 20px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/Raspberry Brownies Gourmet Menu (2).png");
+        padding: 20px 20px 790px 20px;
+    }
+}
+
+@media screen and (max-width: 1096px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/Raspberry Brownies Gourmet Menu (3).png");
+        padding: 20px 20px 700px 20px;
+    }
+}
+
+@media screen and (max-width: 972px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/Raspberry Brownies Gourmet Menu (4).png");
+        padding: 20px 20px 628px 20px;
+    }
+}
+
+@media screen and (max-width: 872px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/Raspberry Brownies Gourmet Menu (5).png");
+        padding: 20px 20px 555px 20px;
+    }
+}
+
+@media screen and (max-width: 788px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/Raspberry Brownies Gourmet Menu (6).png");
+        padding: 20px 20px 505px 20px;
+    }
+}
+
+@media screen and (max-width: 696px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/browny_menu_width_696px.png");
+        padding: 20px 20px 1218px 20px;
+    }
+
+    section nav ul {
+        gap: 5px;
+    }
+
+    .nav-button {
+        padding: 10px 12px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/browny_menu_width_696px (1).png");
+        padding: 20px 20px 1135px 20px;
+    }
+}
+
+@media screen and (max-width: 604px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/browny_menu_width_696px (2).png");
+        padding: 20px 20px 1054px 20px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/browny_menu_width_696px (3).png");
+        padding: 20px 20px 990px 20px;
+    }
+
+    section nav ul {
+        gap: 3px;
+    }
+
+    .nav-button {
+        padding: 8px 7px;
+    }
+
+    section .logo a {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/browny_menu_width_696px (4).png");
+        padding: 20px 20px 926px 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/browny_menu_width_696px (5).png");
+        padding: 20px 20px 868px 20px;
+    }
+
+    .nav-button {
+        padding: 7px 5px;
+        font-size: 13px;
+    }
+
+    section .logo a {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    header {
+        background: black;
+        background-position: center;
+        background-image: url("../image/browny_menu_width_696px (5).png");
+        padding: 20px 20px 580px 20px;
+        background-size: 95%;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+
+    section nav ul {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+        gap: 8px 10px;
+    }
+
+    section nav li:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1;
+        justify-self: end;
+    }
+
+    section nav li:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: end;
+        margin-top: 5px;
+    }
+
+    section nav li.logo {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        justify-self: center;
+    }
+
+    section nav li:nth-child(4) {
+        grid-column: 3;
+        grid-row: 1;
+        justify-self: start;
+    }
+
+    section nav li:nth-child(5) {
+        grid-column: 3;
+        grid-row: 2;
+        justify-self: start;
+        margin-top: 5px;
+    }
+
+    .nav-button {
+        padding: 6px 10px;
+        font-size: 11px;
+        min-width: 70px;
+        border-width: 2px;
+        border-radius: 15px;
+    }
+
+    /* Shrink logo */
+    section .logo a {
+        width: 50px;
+        height: 50px;
+    }
+}
